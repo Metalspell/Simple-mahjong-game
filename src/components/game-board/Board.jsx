@@ -4,7 +4,7 @@ import { simpleNumbersGenerator } from '../../numbers-generator';
 import { useState, useMemo } from "react";
 
 const Board = () => {
-  const gameArr = useMemo(() => simpleNumbersGenerator(10), []);
+  const gameArr = useMemo(() => simpleNumbersGenerator(60), []);
   const comparisonArr = [];
   const [readyBoard, setReadyBoard] = useState(false);
   const [progress, setProgress] = useState(0);
