@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/poppins/Poppins-Bold.ttf');
+}
+
+.generalWrapper {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generalTitle {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Poppins-Bold';
+  font-size: 3vw;
+}
